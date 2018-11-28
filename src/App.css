@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.backg {
+  background-image: url(./Admin/Nature.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1768px;
+  height: 768px;
+}
+.bg {
+  background-image: url(./Admin/Nature.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1768px;
+  height: 768px;
+  font: 1em sans-serif;
+  font-style: oblique;
+}
+
+.nav-sde {
+  float: left;
+  margin-left: 50px;
+} 
+.nav-link a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-text-fill-color: #4CAF50;
+  flex :hover;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.h1 {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+  color: wheat;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+float: left;
+width: 50%;
+}
+container {
+    flex: 1;
+    justify-content : 'center';
+    align-items: 'center'
+  }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.tabTop {
+  margin-top: 10px;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

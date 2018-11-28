@@ -1,0 +1,78 @@
+.st{
+	margin: 0;
+	padding: 0;
+	background: url(./desk-iljitsch1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serief;
+	height: 768px;
+}
+.login-box{
+	width: 320px;
+	height:520px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+    padding: 60px 30px;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+}
+.h1, h1{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+}
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+}
+.login-box input{
+	width:100%;
+	margin-top: 0%;
+	margin-bottom:10px;
+}
+.login-box input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40 px;
+	color: #fff;
+	font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+	 border:none;
+	 outline:none;
+	 height:40px;
+	 background: #1c8adb;
+	 color: #fff;
+	 font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="st"] {
+        width: 100%;
+    }
+}
+.footerv {
+    border-top: 1px solid #EBEBEB;
+	position: absolute;
+	top:85%;
+    bottom: 0;
+    width: 100%;
+    height: 208px;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 20px;
+    margin-top: 0px;
+}

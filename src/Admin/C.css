@@ -1,0 +1,120 @@
+.col{
+	margin: 0;
+	padding: 0;
+	background: url(./place.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serief;
+	height: 768px
+}
+.log{
+	width: 400px;
+	height:602px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1{
+	margin:0;
+	padding: 0 0 10px;
+	position: relative;
+	text-align:center;
+	font-size:22px;
+}
+.log p{
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+}
+.log input{
+	width:70%;
+	margin-bottom:10px;
+}
+.log input[type="text"],input[type="password"] :focus
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:60 px;
+	color: #fff;
+	font-size: 22px;
+	box-sizing: border-box; 
+}
+.log input[type="submit"]
+{
+	 border:none;
+	 outline:none;
+	 background: #1c8adb;
+	 color: #fff;
+	 font-size: 20px;
+	 margin-top: 10px;
+}
+.op {
+	margin-top: 10px;
+	width:auto;
+	color: red;
+	height: 40px;
+}
+input[type=text]:focus {
+	background-color:#fff;
+	color: violet;
+}
+
+.footer1 {
+    border-top: 1px solid #EBEBEB;
+	position: fixed;
+	top:82%;
+    bottom: 0;
+    width: 100%;
+	height: 208px;
+	min-height: 10%;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.navbar1 {
+    /* position: relative; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: -0.5rem 28rem;
+    margin-bottom: 0px;
+    font-family: monospace;
+}
+.btn-block {
+    display: block;
+    width: 110%;
+    height: 42px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}

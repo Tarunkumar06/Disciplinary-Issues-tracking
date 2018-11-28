@@ -1,0 +1,141 @@
+.back{
+	margin: 0;
+	padding: 0;
+	background: url(./del.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serief;
+	height: 768px;
+}
+.adl{
+	width: 320px;
+	height:380px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+.adl p{
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+	text-align: left
+}
+.adl input{
+	width:100%;
+	margin-bottom:10px;
+}
+.adl input[type="text"],input[type="password"] :focus
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:37 px;
+	color: #fff;
+	font-size: 22px;
+	box-sizing: border-box; 
+}
+.adl input[type="submit"]
+{
+	 border:none;
+	 outline:none;
+	 background: #1c8adb;
+	 color: #fff;
+	 font-size: 20px;
+	 margin-top: 10px;
+}
+.footer2 {
+    border-top: 1px solid #EBEBEB;
+	position: absolute;
+	top:85%;
+    bottom: 0;
+    width: 100%;
+    height: 208px;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: -0.5rem 28rem;
+    margin-bottom: 0px;
+    font-family: monospace;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    font-family: monospace;
+    font-size: 24px;
+}
+.btn-toolbar .btn, .btn-toolbar .btn-group, .btn-toolbar .input-group {
+    float: left;
+    margin-top: 7px;
+    font-size: 24px;
+}
+.buttonr {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+button, html [type=button] {
+    margin-right: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+	font-size: 21px;
+	float: left;
+	text-align: center;
+	margin-left: 1280px;
+	color: darkgoldenrod;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-right: 50px;
+    width: 103px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navbar-header {
+    color: brown;
+    font-size: 4.5rem;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: initial;
+}

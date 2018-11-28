@@ -1,0 +1,72 @@
+.pr1{
+	margin: 0;
+	padding: 0;
+	background: url(./bigstock-Facebook-New-Logo-On-The-Apple-95497082.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serief;
+	height: 790px;
+}
+.FR{
+	width: 330px;
+	height:350px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.FR p{
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+}
+.FR input{
+	width:100%;
+	margin-bottom:0px;
+}
+.FR input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40 px;
+	color: #fff;
+	font-size: 16px;
+}
+.FR input[type="submit"]
+{
+	 border:none;
+	 outline:none;
+	 height:40px;
+	 background: #1c8adb;
+	 color: #fff;
+	 font-size: 18px;
+}
+.op{
+	margin-bottom: 10px;
+	height: 40px;
+	width: 50%;
+	color: #1c8adb;
+}
+.footer5 {
+    border-top: 1px solid #EBEBEB;
+	position: absolute;
+	top:85%;
+    bottom: 0;
+    width: 100%;
+    height: 208px;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.btn-toolbar .btn, .btn-toolbar .btn-group, .btn-toolbar .input-group {
+    float: left;
+    margin-top: 15px;
+}
